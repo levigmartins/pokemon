@@ -1,12 +1,13 @@
 const mongodb = require("mongodb");
+const auth = require('./auth.json');
 
 async function loadCollections(collection) {
     const client = await mongodb.MongoClient
-        .connect('mongodb+srv://mongodb:x5YoblBMIKSnqcRP@cluster0.own8z.mongodb.net/Cluster0?retryWrites=true&w=majority', {
+        .connect(auth.mongodb_token, {
             useNewUrlParser: true
         });
 
-    return client.db('Cluster0').collection(collection);
+    return client.db(auth.mongodb_db_name).collection(collection);
 }
 
 module.exports = loadCollections;

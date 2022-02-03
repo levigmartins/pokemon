@@ -1,5 +1,5 @@
 const { ObjectId } = require('mongodb');
-const loadCollections = require('./../server/database_settings');
+const loadCollections = require('../database_settings');
 
 module.exports = {
     async get(req, res) {

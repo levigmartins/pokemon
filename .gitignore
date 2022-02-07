@@ -105,5 +105,3 @@ dist
 
 # Auth file
 server/*.json
-
-/client

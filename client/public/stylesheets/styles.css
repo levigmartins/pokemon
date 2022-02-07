@@ -1,0 +1,19 @@
+:root{
+    --red: #FF0000;
+    --darkRed: #CC0000;
+    --blue: #3B4CCA;
+    --yellow: #FFDE00;
+    --gold: #B3A125;
+}
+
+@font-face {
+    font-family: "Pokemon-Hollow";
+    src: url("../fonts/Pokemon/Pokemon\ Hollow.ttf") format("truetype");
+    font-display: auto;
+}
+
+@font-face {
+    font-family: "Pokemon-Solid";
+    src: url("../fonts/Pokemon/Pokemon\ Solid.ttf") format("truetype");
+    font-display: auto;
+}

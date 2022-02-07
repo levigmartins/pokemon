@@ -1,2 +1,2 @@
-# letterboxd
-Application using NodeJSand VueJS along with Twitter and Letterboxd APIs.
+# pokemon
+Application using NodeJS and VueJS along with Twitter and Letterboxd APIs.
